@@ -1,0 +1,87 @@
+body 
+{
+    font-family: serif;
+    background-color: #000000;
+}
+a, a:hover, a:visited, a:active
+{
+	color:#000;
+	text-decoration:none;
+}
+* 
+{
+    box-sizing: border-box;
+}
+h1
+{
+    color: #FFF;
+    font-family: 'Rokkitt', serif;
+    margin-left: 8%;
+    font-size: 300%;
+    display: inline-block;
+}
+.titre
+{
+    color: white;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-size: 350%;
+}
+
+.map__imageworld
+{
+    width: 80%;
+    margin: auto;
+}
+.map__imageworld path
+{
+    fill: #000000;
+    stroke: #FFF;
+    stroke-width: 0.3px;
+    transition: fill 0.3s;
+}
+.map__imageworld path:hover
+{
+    fill: #ffffff;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 800px)
+{
+h1
+{
+    color: #FFF;
+    font-family: 'Rokkitt', serif;
+    margin-left: 8%;
+    font-size: 300%;
+    display: inline-block;
+}
+.titre
+{
+    color: white;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-size: 350%;
+}
+.map__imageworld
+{
+    width: 200%;
+    margin: auto;
+}
+.map__imageworld path
+{
+    fill: #000000;
+    stroke: #FFF;
+    stroke-width: 0.3px;
+    transition: fill 0.3s;
+}
+.map__imageworld path:hover
+{
+    fill: #ffffff;
+}
+}
