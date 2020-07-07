@@ -45,6 +45,44 @@ h1
     fill: #ffffff;
 }
 
+.display
+{
+    display: flex;
+}
+.map__list {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    font-family: 'Rokkitt', serif;
+}
+.map__list ul, .map__list li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.map__list a {
+    padding-left: 25px;
+    display: inline-block;
+    height: 25px;
+    width: 100%;
+    line-height: 30px;
+    color: inherit;
+    text-decoration: none;
+    transition: 1s;
+}
+.map__list a.is-active {
+    color: black;
+    background-color: #f4f4f4;
+}
+#colorOff
+{
+    color: rgba(255, 255, 255, 0.233);
+}
+#colorOn
+{
+    color: white;
+}
 
 
 

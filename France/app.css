@@ -21,13 +21,7 @@ h1
     font-size: 300%;
     display: inline-block;
 }
-.titre
-{
-    color: white;
-    text-align: center;
-    font-family: 'Rokkitt', serif;
-    font-size: 350%;
-}
+
 
 .map__image
 {
@@ -93,3 +87,39 @@ h1
     color: white;
 }
 
+
+
+
+@media all and (max-width: 1000px)
+{
+h1
+{
+    color: #FFF;
+    font-family: 'Rokkitt', serif;
+    margin-top: 1%;
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+}
+.map__image
+{
+    margin-top: -3%;
+    margin: auto;
+    width: 80%;
+    display: inline-block;
+}
+.map
+{
+    display: flex;
+    flex-direction: column;
+}
+.map__list 
+{
+    font-size: 15px;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-left: hidden;
+    font-family: 'Rokkitt', serif;
+}
+}

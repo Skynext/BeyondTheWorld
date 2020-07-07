@@ -1,0 +1,163 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    background-color: black;
+    font-family: 'Rokkitt', serif;
+    line-height: 1.625;
+    margin: 0;
+    color: #6F6F6F;
+}
+a {
+    margin-right: 20px;
+    color: inherit;
+    text-decoration: none;
+    transition: color .3s;
+}
+img {
+    margin-top: 15%;
+    max-width: 10%;
+    height: auto;
+}
+.titre
+{
+    color: white;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-size: 350%;
+}
+#trait
+{
+    border-top: 1px solid rgb(92, 91, 91);
+    width: 40%;
+    margin-top: -10%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.section1 {
+    /*background: 
+        /*linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)); 
+        url(img/Venise.jpeg) center center / cover no-repeat;*/
+    color: #6F6F6F;
+}
+.section2 {
+    /*background: 
+        /*linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)); 
+        url(img/Amsterdam.jpeg) center center / cover no-repeat;*/
+    color: #6F6F6F;
+}
+
+.baseline {
+    padding: 50px 0 70px 0;
+    text-align:center;
+    line-height: 1;
+}
+.baseline-name {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+footer
+{
+    padding-top: 130px;
+    color: #FFF;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+}
+.footer1
+{
+    margin-bottom: 20px;
+    font-size: 140%;
+    margin-left: 20px;
+}
+.logo
+{
+    text-align: center;
+}
+
+@media all and (max-width: 800px)
+{
+    .titre
+    {
+    text-align: center;
+    font-family: 'Rokkitt', serif;;
+    font-size: 150%;
+    }
+    #trait
+    {
+    border-top: 1px solid rgb(92, 91, 91);
+    width: 40%;
+    margin-top: -25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    }
+    footer
+    {
+    padding-top: 0px;
+    color: #FFF;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    }
+    .logo
+    {
+    margin-top: 30%;
+    margin-bottom: 30%;
+    text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+    .baseline-name {
+        font-size: 4.375rem;
+        letter-spacing: 12px;
+        padding-top: 60px;
+    }
+}
+
+
+
+.reveal-loaded .reveal [class*="reveal-"] {
+    opacity: 0!important;
+    transform: translateY(30px)!important;
+    transition: 0s!important;
+}
+
+.reveal-loaded [class*="reveal-"]{
+    transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
+.reveal-loaded  .reveal-2 {
+    transition-delay: .1s;
+}
+
+.reveal-loaded .reveal-3 {
+    transition-delay: .2s;
+}
+
+.reveal-loaded .reveal-4 {
+    transition-delay: .3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .reveal [class*="reveal-"] {
+        opacity: 1!important;
+        transform: translateY(0px)!important;
+    }
+    [class*="reveal-"]{
+        transition-duration: 0s!important;
+        transition-delay: 0s!important;
+    }
+}
