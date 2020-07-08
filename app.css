@@ -15,7 +15,6 @@ a, a:hover, a:visited, a:active
 h1
 {
     color: #FFF;
-    font-family: 'Rokkitt', serif;
     margin-left: 8%;
     font-size: 300%;
     display: inline-block;
@@ -24,7 +23,7 @@ h1
 {
     color: white;
     text-align: center;
-    font-family: 'Rokkitt', serif;
+    font-family: 'Megrim', cursive;
     font-size: 350%;
 }
 
@@ -91,24 +90,17 @@ h1
 
 @media all and (max-width: 800px)
 {
-h1
-{
-    color: #FFF;
-    font-family: 'Rokkitt', serif;
-    margin-left: 8%;
-    font-size: 300%;
-    display: inline-block;
-}
+
 .titre
 {
     color: white;
-    text-align: center;
     font-family: 'Rokkitt', serif;
-    font-size: 350%;
+    font-size: 200%;
+    
 }
 .map__imageworld
 {
-    width: 200%;
+    width: 250%;
     margin: auto;
 }
 .map__imageworld path
@@ -121,5 +113,12 @@ h1
 .map__imageworld path:hover
 {
     fill: #ffffff;
+}
+.map__list 
+{
+    font-size: 15px;
+    margin-left: 80%;
+    margin-bottom: 5%;
+    font-family: 'Rokkitt', serif;
 }
 }

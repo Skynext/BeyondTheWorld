@@ -15,23 +15,14 @@ a, a:hover, a:visited, a:active
 h1
 {
     color: #FFF;
-    font-family: 'Rokkitt', serif;
+    font-family: 'Megrim', cursive;
     margin-left: 5%;
     margin-top: 1%;
     font-size: 300%;
     display: inline-block;
 }
-img {
-    max-width: 100%;
-    height: auto;
-}
-.titre
-{
-    color: white;
-    text-align: center;
-    font-family: 'Rokkitt', serif;
-    font-size: 350%;
-}
+
+
 
 .map__image
 {

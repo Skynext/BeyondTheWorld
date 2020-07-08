@@ -5,7 +5,7 @@ html {
     font-size: 16px;
 }
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Barrio', cursive;
     line-height: 1.625;
     margin: 0;
     color: #6F6F6F;
@@ -22,7 +22,7 @@ img {
 .header {
     background: 
         linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)), 
-        url(img/1.jpg) center center / cover no-repeat;
+        url(img/Bandeau.jpg) center center / cover no-repeat;
     color: #FFF;
 }
 .menu-item {
@@ -60,14 +60,15 @@ img {
     max-width: 500px;
     margin: 0 auto;    
 }
-
-/*
-body {
-    background: 
-        linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
-        url(screenshot.png) top center no-repeat;
+.block-img img
+{
+    filter: grayscale(1);
 }
-*/
+.block-img img:hover
+{
+    transition: 10s;
+    filter: grayscale(0);
+}
 
 @media only screen and (min-width: 600px) {
     html {
