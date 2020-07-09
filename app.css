@@ -96,7 +96,39 @@ h1
 
 
 
-
+@media all and (max-width: 1100px)
+{
+#CZ, #FR, #GB, #IT, #NL, #US
+{
+    fill: gray;
+}
+.titre
+{
+    color: white;
+    font-family: 'Rokkitt', serif;    
+}
+.map__imageworld
+{
+    width: 80%;
+    margin: auto;
+}
+.map__imageworld path
+{
+    fill: #000000;
+    stroke: #FFF;
+    stroke-width: 0.3px;
+    transition: fill 0.3s;
+}
+.map__imageworld path:hover
+{
+    fill: #ffffff;
+}
+.map__list 
+{
+    visibility: hidden;
+    display: none;
+}
+}
 
 
 @media all and (max-width: 800px)
@@ -134,3 +166,6 @@ h1
     display: none;
 }
 }
+
+
+
