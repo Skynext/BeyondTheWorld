@@ -36,10 +36,3 @@ links.forEach(function (link) {
 map.addEventListener('mouseover', function () {
     activeArea()
 })
-
-
-
-//toggle menu visibility
-$("#js-navbar-toggle").on("click", function () {
-    $("#js-menu").toggleClass('active');
-   });

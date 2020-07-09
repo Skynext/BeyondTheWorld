@@ -6,7 +6,6 @@ html {
 }
 body {
     background-color: black;
-    font-family: 'Rokkitt', serif;
     line-height: 1.625;
     margin: 0;
     color: #6F6F6F;
@@ -26,7 +25,7 @@ img {
 {
     color: white;
     text-align: center;
-    font-family: 'Rokkitt', serif;
+    font-family: 'Megrim', cursive;
     font-size: 350%;
 }
 #trait
@@ -38,16 +37,12 @@ img {
     margin-right: 30%;
 }
 
-.section1 {
-    /*background: 
-        /*linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)); 
-        url(img/Venise.jpeg) center center / cover no-repeat;*/
+.section2 {
+    font-family: 'Barrio', cursive;
     color: #6F6F6F;
 }
-.section2 {
-    /*background: 
-        /*linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)); 
-        url(img/Amsterdam.jpeg) center center / cover no-repeat;*/
+.section3 {
+    font-family: 'Bangers', cursive;
     color: #6F6F6F;
 }
 
