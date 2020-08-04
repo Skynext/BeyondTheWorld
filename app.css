@@ -100,7 +100,7 @@ h1
 {
 #CZ, #FR, #GB, #IT, #NL, #US
 {
-    fill: gray;
+    fill: rgb(230, 230, 230);
 }
 .titre
 {
@@ -109,14 +109,14 @@ h1
 }
 .map__imageworld
 {
-    width: 80%;
+    width: 140%;
     margin: auto;
 }
 .map__imageworld path
 {
     fill: #000000;
     stroke: #FFF;
-    stroke-width: 0.3px;
+    stroke-width: 0.1px;
     transition: fill 0.3s;
 }
 .map__imageworld path:hover
