@@ -116,7 +116,7 @@ h1
 {
     fill: #000000;
     stroke: #FFF;
-    stroke-width: 0.1px;
+    stroke-width: 0.07px;
     transition: fill 0.3s;
 }
 .map__imageworld path:hover
@@ -153,7 +153,7 @@ h1
 {
     fill: #000000;
     stroke: rgb(233, 233, 233);
-    stroke-width: 0.08px;
+    stroke-width: 0.07px;
     transition: fill 0.3s;
 }
 .map__imageworld path:hover
