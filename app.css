@@ -105,7 +105,7 @@ h1
 .titre
 {
     color: white;
-    font-family: 'Rokkitt', serif;    
+    font-family: 'Megrim', cursive;   
 }
 .map__imageworld
 {
@@ -133,27 +133,27 @@ h1
 
 @media all and (max-width: 800px)
 {
-#CZ, #FR, #GB, #IT, #NL, #US
+#CZ, #FR, #GB, #IT, #NL, #US, #MQ
 {
-    fill: gray;
+    fill: rgb(231, 231, 231);
 }
 .titre
 {
     color: white;
-    font-family: 'Rokkitt', serif;
+    font-family: 'Megrim', cursive;
     font-size: 200%;
     
 }
 .map__imageworld
 {
-    width: 250%;
+    width: 350%;
     margin: auto;
 }
 .map__imageworld path
 {
     fill: #000000;
     stroke: #FFF;
-    stroke-width: 0.3px;
+    stroke-width: 0.1px;
     transition: fill 0.3s;
 }
 .map__imageworld path:hover
